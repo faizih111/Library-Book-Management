@@ -18,22 +18,6 @@ class TextBook(Book):
         print("Library_Name:",library_name)
         print("Book:",self.title,", Author: ",self.author,", Year:",self.year,", Subject:",self.subject)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 b1=Book("The Hobbit","J.R.R. Tolkien",1937)
 b1.display_info()
 b2=Book("History of Rome","Smith", 1998)
