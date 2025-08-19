@@ -1,9 +1,4 @@
-"""Library Mangement System"""
-
-
 class Book:
-    """Book class that have...."""
-
     def __init__(self, title, author, year):
         self.title = title
         self.author = author
@@ -14,8 +9,6 @@ class Book:
 
 
 class TextBook(Book):
-    """TextBok....."""
-
     def __init__(self, title, author, year, subject):
         self.title = title
         self.author = author
